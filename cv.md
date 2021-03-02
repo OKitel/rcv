@@ -3,13 +3,19 @@
 ### Contacts
 *OKitel#0345 (Discord)*
 
-
 ### About me
-
-I'm 28 years old. I'm a doctor, but I decided to change my life and became a front-end developer. I'm interested in quick and intensive start of my new life.  
+I'm 28 years old. I was a doctor, but one day I realized that I do not love my work. 
+Steve Jobs said: 
+> The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.
+ 
+So I decided to change my life and became a front-end developer. I'm interested in quick and intensive start of my new life.  
 
 ### Skills
-For now I know **HTML** and **CSS** and I'm learning **JS**.
+Learning:
+* **HTML** 
+* **CSS** 
+* **JS** 
+* **Markdown** 
 
 ### Samples of code
 [Task from codewars.com](https://www.codewars.com/kata/greatest-common-divisor)
@@ -25,11 +31,13 @@ function mygcd(x,y){
   }
   return (x+y);
 }
-  </script>
-  ```
+</script>
+```
    
 ### Experience
+
 ### Education
 Self-eduation [w3school.com](https://www.w3schools.com/)
+
 ### Languages
 English B2 (TOEFL iBT 90 out of 120), Russian (native), Polish B1, Italian A2
