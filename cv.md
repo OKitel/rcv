@@ -1,7 +1,7 @@
 # Olga Kitel
 
 ### Contacts
-*OKitel#0345 (Discord)*
+*OKitel#0345 (Discord)* :love_letter:
 
 ### About me
 I'm 28 years old. I was a doctor, but one day I realized that I do not love my work. 
