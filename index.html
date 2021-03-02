@@ -12,13 +12,13 @@
 
 <body>
     <main class="main-container">
-    <header>
-        <h1 id="olga-kitel" class="header">Olga Kitel</h1>
+    <header class="header">
+        <h1 id="olga-kitel"> Olga Kitel</h1>
     </header>
 
-    <section class="photo-container">
-        <img src="./Img/Foto.jpg" alt="My photo" class="photo"> </img>
-    </section>
+    <figure class="photo-container">
+        <img src="./Img/Foto.jpg" alt="My photo" class="photo">
+    </figure>
 
     <section>
         <h2 id="contacts" class="h_style">Contacts</h2>
@@ -33,9 +33,9 @@
         <p>I&#39;m 28 years old. I was a doctor, but one day I realized that I do not love my work. 
             Steve Jobs said: </p>
             <blockquote>
-            <p>The only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle.</p>
+                &ldquo; The only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle.&rdquo;
             </blockquote>
-            <p>So I decided to change my life and became a front-end developer. I&#39;m interested in quick and intensive start of my new life.  </p>
+        <p>So I decided to change my life and became a front-end developer. I&#39;m interested in quick and intensive start of my new life.  </p>
         
     </section>
     
@@ -58,18 +58,19 @@
             <p>Task from<a href="https://www.codewars.com/kata/greatest-common-divisor"> codewars.com</a></p>
             
             
-            <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
-            <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mygcd</span><span class="hljs-params">(x,y)</span></span>{
-              <span class="hljs-keyword">while</span> (x != <span class="hljs-number">0</span> &amp;&amp; y != <span class="hljs-number">0</span>) {
-                <span class="hljs-keyword">if</span> (x &gt; y) {
-                  x = x % y;
-                } <span class="hljs-keyword">else</span> {
-                  y = y % x;
-                }
-              }
-              <span class="hljs-keyword">return</span> (x+y);
+            <pre><code class="lang-html">
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mygcd</span><span class="hljs-params">(x,y)</span></span>{
+        <span class="hljs-keyword">while</span> (x != <span class="hljs-number">0</span> &amp;&amp; y != <span class="hljs-number">0</span>) {
+            <span class="hljs-keyword">if</span> (x &gt; y) {
+                x = x % y;
+            } <span class="hljs-keyword">else</span> {
+                y = y % x;
             }
-            </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+        }
+        <span class="hljs-keyword">return</span> (x+y);
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
             </code></pre>
         
     </section>
@@ -93,11 +94,17 @@
             <li>Polish B1</li> 
             <li>Italian A2</li>
         </ol> 
+        
     </section>
-
-
+    
     <footer>
-        &copy; 2021  by Olga Kitel  
+        <p class="footer-text">Copyright &copy; 2021  by Olga Kitel</p>
+        <div class="footer-links">
+            <a href="https://rs.school/js/" target="_blank">
+                <img class="footer-img" src="Img/rs_school_js.svg" alt="RS School">
+            </a>
+                <img class="footer-img" src="Img/YouTube_full-color_icon_(2017).svg" alt="YouTube">
+        </div>
     </footer>
 </main>
 </body>
