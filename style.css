@@ -1,0 +1,17 @@
+body { 
+  background-color: #ccffe5
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.Photo {
+width: 15%;
+}
+
+.Photo-container {
+  display: flex;
+justify-content: center;
+}
