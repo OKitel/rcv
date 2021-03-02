@@ -1,17 +1,31 @@
 body { 
+  font-family: 'Akaya Kanadaka', cursive;
   background-color: #ccffe5
 }
 
-.header {
-  display: flex;
-  justify-content: center;
+h1, h2 {
+  font-family: 'Lobster', cursive;
 }
 
-.Photo {
-width: 15%;
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Photo-container {
-  display: flex;
-justify-content: center;
+.ul-skills{
+  list-style-type: "\2713";
+}
+
+.photo {
+  width: 25%;
+}
+
+.photo-container {
+ display: flex; 
+ justify-content: center;
+}
+
+section {
+  width: 50%
 }
