@@ -1,22 +1,23 @@
-body { 
-  font-family: 'Akaya Kanadaka', cursive;
-  background-color: #ccffe5
+body {
+  font-family: "Akaya Kanadaka", cursive;
+  background-color: #ccffe5;
 }
 .header {
-    font-size: x-large;
-  }
-h1, h2 {
-  font-family: 'Lobster', cursive;
+  font-size: x-large;
+}
+h1,
+h2 {
+  font-family: "Lobster", cursive;
 }
 
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.ul-skills{
+.ul-skills {
   list-style-type: "\2713";
 }
 
@@ -26,13 +27,12 @@ h1, h2 {
 }
 
 .photo-container {
- display: flex; 
- justify-content: center;
- 
+  display: flex;
+  justify-content: center;
 }
 
 section {
-  width: 50%
+  width: 50%;
 }
 
 .hljs-name {
@@ -58,7 +58,7 @@ section {
 pre {
   background-color: #222222;
   border-radius: 5px;
-  color:aliceblue;
+  color: aliceblue;
   padding-left: 20px;
   overflow: auto;
 }
@@ -74,8 +74,6 @@ blockquote {
 .footer-img {
   height: 30px;
   margin: 0px 10px 0px 10px;
-
-  
 }
 
 .footer-text {
@@ -83,16 +81,15 @@ blockquote {
   justify-content: center;
   margin-bottom: 5px;
   margin-top: 5px;
-  
 }
 
 footer {
   border-top: black solid 1px;
   width: 100%;
   margin-top: 40px;
-  }
+}
 
-  .footer-links {
+.footer-links {
   display: flex;
   justify-content: center;
-  }
+}
