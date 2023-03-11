@@ -1,7 +1,7 @@
 # rsschool-cv
 CV for RS
-https://OKitel.github.io/rsschool-cv/cv
+https://OKitel.github.io/rcv/cv
 
 
 CV (html)
-https://okitel.github.io/rsschool-cv/
+https://okitel.github.io/rcv/
